@@ -1,0 +1,7 @@
+{
+  "UniqueModName": "NBKRedSpy_QM_CapAttack",
+  "Assemblies": [
+    "QM_CapAttack.dll"
+  ],
+  "Dependencies": []
+}
