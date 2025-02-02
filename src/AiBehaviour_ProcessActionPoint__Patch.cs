@@ -21,12 +21,12 @@ namespace QM_CapAttack
 
             //Used to determine the start of a new turn.
             //Only monsters have the action cap
-            Monster monster = __instance._monster as Monster;
+            Monster monster = __instance.Monster as Monster;
 
             if (monster == null) return;
 
-            if (monster._localTurnsProcessed == 0)
-            {
+            if (monster.ActionPointsProcessed == 0)
+            { 
                 MeleeAttacks = 0;
             }
         }
